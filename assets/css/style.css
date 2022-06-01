@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+}
+
+header nav {
+  background-color: #fff;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
+main .hero-bg {
+  position: relative;
+}
+main .hero-bg::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url(../img/hero-bg.svg);
+  background-position: center 0;
+  background-size: inherit;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+  z-index: 0;
+}
+main .hero-bg > * {
+  position: inherit;
+}
+main .laptop-frame {
+  position: relative;
+  aspect-ratio: 1273/796;
+  width: 100%;
+  padding: 3% 5.5%;
+}
+main .laptop-frame::before, main .laptop-frame::after {
+  content: "";
+  position: absolute;
+}
+main .laptop-frame::before {
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(../img/laptop-screen.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .laptop-frame::after {
+  width: 100%;
+  top: 99%;
+  aspect-ratio: 1658/101;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  background-image: url(../img/laptop-bottom.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+main .object-fit {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .mask {
+  -webkit-mask-image: url(../img/graph.png);
+          mask-image: url(../img/graph.png);
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+          mask-size: 100%;
+}
+
+footer {
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+}
+
+/*
+*
+*
+Icons
+*
+*
+*/
+.icon {
+  width: 24px;
+  height: 24px;
+  display: block;
+  background-size: cover;
+}
+.icon-tw {
+  background-image: url(../img/icons/Twitter.png);
+}
+.icon-ig {
+  background-image: url(../img/icons/Instagram.png);
+}
+.icon-fb {
+  background-image: url(../img/icons/Facebook.png);
+}
+.icon-li {
+  background-image: url(../img/icons/LinkedIn.png);
+}
+
+/*
+*
+*
+Colors
+*
+*
+*/
+.bg-blue {
+  background-color: #0066f0 !important;
+}
+.bg-lightblue {
+  background-color: #f2f7fe !important;
+}
+.bg-darkblue {
+  background-color: #004373 !important;
+}
+.bg-white {
+  background-color: #fff !important;
+}
+
+.color-blue {
+  color: #004373 !important;
+}
+
+/*
+*
+*
+Radius
+*
+*
+*/
+.radius-big {
+  border-radius: 24px;
+}
+.radius-small {
+  border-radius: 12px;
+}
+
+/*
+*
+*
+Button
+*
+*
+*/
+.btn-darkblue-outline {
+  border: 2px solid #004373 !important;
+  color: #004373 !important;
+}
+.btn-darkblue-outline:hover {
+  background-color: #004373 !important;
+  color: #fff !important;
+}
+.btn-darkblue-outline:hover .navbar-toggler-icon {
+  filter: invert(1);
+}
+.btn-darkblue-outline:focus {
+  box-shadow: none;
+}
+
+/*
+*
+*
+Swiper
+*
+*
+*/
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.css.map */
