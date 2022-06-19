@@ -8,6 +8,9 @@ header nav {
   border-bottom-left-radius: 24px;
   border-bottom-right-radius: 24px;
 }
+header nav .nav-item .nav-link, header nav .nav-item .dropdown-item {
+  cursor: pointer;
+}
 
 main .hero-bg {
   position: relative;

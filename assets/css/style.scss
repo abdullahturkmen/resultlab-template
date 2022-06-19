@@ -9,6 +9,12 @@ header {
         background-color: #fff;
         border-bottom-left-radius: 24px;
         border-bottom-right-radius: 24px;
+
+        .nav-item{
+            .nav-link,.dropdown-item{
+                cursor: pointer;
+            }
+        }
     }
 }
 
