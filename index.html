@@ -36,7 +36,8 @@
             id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item pe-5">
-                <a class="nav-link color-blue" aria-current="page" onclick="scrolling('#home')">Anasayfa</a>
+                <a class="nav-link color-blue" aria-current="page"
+                  onclick="scrolling('#home')">Anasayfa</a>
               </li>
               <li class="nav-item pe-5 dropdown">
                 <a class="nav-link dropdown-toggle color-blue" href="#"
@@ -46,7 +47,8 @@
                 </a>
                 <ul class="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" onclick="scrolling('#hakkimizda')">Tanıtım</a></li>
+                  <li><a class="dropdown-item"
+                      onclick="scrolling('#hakkimizda')">Tanıtım</a></li>
                   <li><a class="dropdown-item" onclick="scrolling('#biz')">Biz</a></li>
                 </ul>
               </li>
@@ -332,10 +334,17 @@
           <div class="row">
 
             <div class="col-12 p-1">
-              
+
               <div class="swiper testiminoalsSwiper">
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide">Slide 1</div>
+                  <div class="swiper-slide">
+                    <div class="d-flex">
+                      <img
+                    src="./assets/img/teams/pinar-yazgan.png"
+                    class="rounded-circle px-5 mb-4 w-100">
+                    <div class="detay">sdfgsdf</div>
+                    </div>
+                  </div>
                   <div class="swiper-slide">Slide 2</div>
                   <div class="swiper-slide">Slide 3</div>
                   <div class="swiper-slide">Slide 4</div>
@@ -389,23 +398,78 @@
       </section>
 
       <section class="py-5 mt-5" id="biz">
-        <div class="container ">
+        <div class="container">
           <div class="row">
             <h2 class="fw-light fw-normal mb-2 fs-1 text-center py-4
               color-blue">BİZ</h2>
 
-            <div class="col-12 px-5 pb-5">
+            <div class="col-12 px-5 pb-1">
+              <div class="row d-flex justify-content-evenly text-center">
 
+                <div class="col-12 col-sm-5 col-md-4 col-lg-3 bg-blue-50
+                  color-blue radius-small py-3 px-2 flex-column text-center
+                  d-flex margin-minus-img">
+                  <img
+                    src="./assets/img/teams/meryem-dogan.png"
+                    class="rounded-circle mb-4">
+                  <span class="fw-bolder fs-5">Meryem Doğan</span>
+                  <span class="fw-normal fs-5">Kurucu Ortak</span>
+                  <ul class="list-unstyled d-flex mt-3
+                    justify-content-center">
+                    <li class="mx-2"><a class="link-dark"
+                        href="https://www.linkedin.com/company/resultlabai/"><i
+                          class="icon
+                          icon-li-dark"></i></a></li>
+                    <li class="mx-2"><a class="link-dark"
+                        href="https://www.instagram.com/resultlab.ai/"><i
+                          class="icon
+                          icon-ig-dark"></i></a></li>
+                    <li class="mx-2"><a class="link-dark" href="#"><i
+                          class="icon
+                          icon-tw-dark"></i></a></li>
+                    <li class="mx-2"><a class="link-dark" href="#"><i
+                          class="icon
+                          icon-fb-dark"></i></a></li>
 
-           
+                  </ul>
+                </div>
 
+                <div class="col-12 col-sm-5 col-md-4 col-lg-3 bg-blue-50
+                  color-blue radius-small py-3 px-2 flex-column text-center
+                  d-flex margin-minus-img">
+                  <img
+                    src="./assets/img/teams/feyza-nur-yildirim.png"
+                    class="rounded-circle mb-4">
+                  <span class="fw-bolder fs-5">Feyza Nur Yıldırım</span>
+                  <span class="fw-normal fs-5">Kurucu Ortak - Diş Hekimliği</span>
+                  <ul class="list-unstyled d-flex mt-3
+                    justify-content-center">
+                    <li class="mx-2"><a class="link-dark"
+                        href="https://www.linkedin.com/company/resultlabai/"><i
+                          class="icon
+                          icon-li-dark"></i></a></li>
+                    <li class="mx-2"><a class="link-dark"
+                        href="https://www.instagram.com/resultlab.ai/"><i
+                          class="icon
+                          icon-ig-dark"></i></a></li>
+                    <li class="mx-2"><a class="link-dark" href="#"><i
+                          class="icon
+                          icon-tw-dark"></i></a></li>
+                    <li class="mx-2"><a class="link-dark" href="#"><i
+                          class="icon
+                          icon-fb-dark"></i></a></li>
+
+                  </ul>
+                </div>
+
+              </div>
             </div>
 
           </div>
         </div>
       </section>
 
-      <section class="py-5 mt-5">
+      <section class="py-5">
         <div class="container bg-lightblue radius-big">
           <div class="row">
             <h2 class="fw-light fw-normal mb-2 fs-1 text-center py-4
@@ -416,25 +480,70 @@
 
               <div class="swiper teamSwiper radius-small">
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide bg-blue-50 color-blue radius-small py-3 px-2 flex-column">
-                    <img src="https://abdullahturkmen.com/abdullah-turkmen-avatar.jpg" class="rounded-circle px-5 mb-4" >
+                  <div class="swiper-slide bg-blue-50 color-blue radius-small
+                    py-3 px-2 flex-column">
+                    <img
+                      src="./assets/img/teams/abdullah-turkmen.jpg"
+                      class="rounded-circle px-5 mb-4 w-100">
                     <span class="fw-bolder fs-5">Abdullah Türkmen</span>
                     <span class="fw-normal fs-5">Front End Dev</span>
                   </div>
 
-                  <div class="swiper-slide bg-blue-50 color-blue radius-small py-3 px-2 flex-column">
-                    <img src="https://abdullahturkmen.com/abdullah-turkmen-avatar.jpg" class="rounded-circle px-5 mb-4" >
+                  <div class="swiper-slide bg-blue-50 color-blue radius-small
+                    py-3 px-2 flex-column">
+                    <img
+                      src="./assets/img/teams/can-atilla.png"
+                      class="rounded-circle px-5 mb-4 w-100">
                     <span class="fw-bolder fs-5">Can Atilla</span>
                     <span class="fw-normal fs-5">Yapay Zeka Geliştiricisi</span>
                   </div>
 
-                  <div class="swiper-slide bg-blue-50 color-blue radius-small py-3 px-2 flex-column">
-                    <img src="https://abdullahturkmen.com/abdullah-turkmen-avatar.jpg" class="rounded-circle px-5 mb-4" >
+                  <div class="swiper-slide bg-blue-50 color-blue radius-small
+                    py-3 px-2 flex-column">
+                    <img
+                      src="./assets/img/teams/User-men.png"
+                      class="rounded-circle px-5 mb-4 w-100">
                     <span class="fw-bolder fs-5">Cihan Özhan</span>
                     <span class="fw-normal fs-5">Yazılım Uzmanı</span>
                   </div>
 
-         
+                  <div class="swiper-slide bg-blue-50 color-blue radius-small
+                  py-3 px-2 flex-column">
+                  <img
+                    src="./assets/img/teams/pinar-yazgan.png"
+                    class="rounded-circle px-5 mb-4 w-100">
+                  <span class="fw-bolder fs-5">Pınar Yazgan</span>
+                  <span class="fw-normal fs-5">Veri Bilimi</span>
+                </div>
+
+                <div class="swiper-slide bg-blue-50 color-blue radius-small
+                    py-3 px-2 flex-column">
+                    <img
+                      src="./assets/img/teams/User-men.png"
+                      class="rounded-circle px-5 mb-4 w-100">
+                    <span class="fw-bolder fs-5">Arif Pehlivan</span>
+                    <span class="fw-normal fs-5">Back-End Developer</span>
+                  </div>
+
+                  <div class="swiper-slide bg-blue-50 color-blue radius-small
+                  py-3 px-2 flex-column">
+                  <img
+                    src="./assets/img/teams/elif-parlak.png"
+                    class="rounded-circle px-5 mb-4 w-100">
+                  <span class="fw-bolder fs-5">Elif Parlak</span>
+                  <span class="fw-normal fs-5">Yapay Zeka Geliştiricisi</span>
+                </div>
+
+                <div class="swiper-slide bg-blue-50 color-blue radius-small
+                py-3 px-2 flex-column">
+                <img
+                  src="./assets/img/teams/User-women.png"
+                  class="rounded-circle px-5 mb-4 w-100">
+                <span class="fw-bolder fs-5">Rana Yalçın</span>
+                <span class="fw-normal fs-5">Geliştirici</span>
+              </div>
+
+
                 </div>
                 <div class="swiper-pagination"></div>
               </div>
@@ -445,9 +554,9 @@
         </div>
       </section>
 
-      
+
       <section class="py-1 mt-1">
-        <div class="container ">
+        <div class="container">
           <div class="row">
             <h2 class="fw-light fw-normal mb-2 fs-1 text-center py-4
               color-blue">Kurumlar & Başarılarımız</h2>
@@ -458,51 +567,72 @@
               <div class="row">
                 <div class="swiper sponsorShipSwiper radius-small">
                   <div class="swiper-wrapper">
-                    <div class="swiper-slide color-blue radius-small py-3 px-2 flex-column">
-                      <img src="./assets/img/sponsorship/marmara-uni.png" class="px-3 mb-4" >
+                    <div class="swiper-slide color-blue radius-small py-3 px-2
+                      flex-column">
+                      <img src="./assets/img/sponsorship/marmara-uni.png"
+                        class="px-3 mb-4">
                       <span class="fw-bolder fs-6">Marmara Üniversitesi</span>
                     </div>
-  
-                    <div class="swiper-slide color-blue radius-small py-3 px-2 flex-column">
-                      <img src="./assets/img/sponsorship/yeditepe-uni.png" class="px-3 mb-4" >
+
+                    <div class="swiper-slide color-blue radius-small py-3 px-2
+                      flex-column">
+                      <img src="./assets/img/sponsorship/yeditepe-uni.png"
+                        class="px-3 mb-4">
                       <span class="fw-bolder fs-6">Yeditepe Üniversitesi</span>
                     </div>
-  
-                    <div class="swiper-slide color-blue radius-small py-3 px-2 flex-column">
-                      <img src="./assets/img/sponsorship/ben-girisimciyim.png" class="px-3 mb-4" >
-                      <span class="fw-bolder fs-6">260 Başvuru Arasında 1.'lik Derecesi</span>
+
+                    <div class="swiper-slide color-blue radius-small py-3 px-2
+                      flex-column">
+                      <img src="./assets/img/sponsorship/ben-girisimciyim.png"
+                        class="px-3 mb-4">
+                      <span class="fw-bolder fs-6">260 Başvuru Arasında 1.'lik
+                        Derecesi</span>
                     </div>
-  
-                    <div class="swiper-slide color-blue radius-small py-3 px-2 flex-column">
-                      <img src="./assets/img/sponsorship/trt-haber.png" class="px-3 mb-4" >
+
+                    <div class="swiper-slide color-blue radius-small py-3 px-2
+                      flex-column">
+                      <img src="./assets/img/sponsorship/trt-haber.png"
+                        class="px-3 mb-4">
                       <span class="fw-bolder fs-6">Benim Yolum Belgeseli Çekimi</span>
                     </div>
 
-                    <div class="swiper-slide color-blue radius-small py-3 px-2 flex-column">
-                      <img src="./assets/img/sponsorship/gvg.png" class="px-3 mb-4" >
-                      <span class="fw-bolder fs-6">'Teknolojiye Yön Veren Girişim' Kategorisinde Finalist</span>
+                    <div class="swiper-slide color-blue radius-small py-3 px-2
+                      flex-column">
+                      <img src="./assets/img/sponsorship/gvg.png" class="px-3
+                        mb-4">
+                      <span class="fw-bolder fs-6">'Teknolojiye Yön Veren
+                        Girişim' Kategorisinde Finalist</span>
                     </div>
 
-                    <div class="swiper-slide color-blue radius-small py-3 px-2 flex-column">
-                      <img src="./assets/img/sponsorship/t3gm.png" class="px-3 mb-4" >
-                      <span class="fw-bolder fs-6">333 Başvuru Arasında TEKNOFEST Girişim Programına Kabul</span>
+                    <div class="swiper-slide color-blue radius-small py-3 px-2
+                      flex-column">
+                      <img src="./assets/img/sponsorship/t3gm.png" class="px-3
+                        mb-4">
+                      <span class="fw-bolder fs-6">333 Başvuru Arasında
+                        TEKNOFEST Girişim Programına Kabul</span>
                     </div>
 
-                    <div class="swiper-slide color-blue radius-small py-3 px-2 flex-column">
-                      <img src="./assets/img/sponsorship/lonca.png" class="px-3 mb-4" >
+                    <div class="swiper-slide color-blue radius-small py-3 px-2
+                      flex-column">
+                      <img src="./assets/img/sponsorship/lonca.png" class="px-3
+                        mb-4">
                       <span class="fw-bolder fs-6">Kuluçka ve BİGG</span>
                     </div>
 
-                    <div class="swiper-slide color-blue radius-small py-3 px-2 flex-column">
-                      <img src="./assets/img/sponsorship/cube.png" class="px-3 mb-4" >
+                    <div class="swiper-slide color-blue radius-small py-3 px-2
+                      flex-column">
+                      <img src="./assets/img/sponsorship/cube.png" class="px-3
+                        mb-4">
                       <span class="fw-bolder fs-6">Kuluçka ve BİGG</span>
                     </div>
-  
-                    <div class="swiper-slide color-blue radius-small py-3 px-2 flex-column">
-                      <img src="./assets/img/sponsorship/yildizli-projeler.png" class="px-3 mb-4" >
+
+                    <div class="swiper-slide color-blue radius-small py-3 px-2
+                      flex-column">
+                      <img src="./assets/img/sponsorship/yildizli-projeler.png"
+                        class="px-3 mb-4">
                       <span class="fw-bolder fs-6">Startup Kategorisinde 3.lük</span>
                     </div>
-           
+
                   </div>
                   <div class="swiper-pagination"></div>
                 </div>

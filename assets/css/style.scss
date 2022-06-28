@@ -10,8 +10,9 @@ header {
         border-bottom-left-radius: 24px;
         border-bottom-right-radius: 24px;
 
-        .nav-item{
-            .nav-link,.dropdown-item{
+        .nav-item {
+            .nav-link,
+            .dropdown-item {
                 cursor: pointer;
             }
         }
@@ -87,6 +88,15 @@ main {
         mask-repeat: no-repeat;
         mask-size: 100%;
     }
+
+    .margin-minus-img{
+        margin-top: 140px;
+        img{
+            box-shadow: 0 0 0px 5px #fff, 0 0 10px #00000094;
+            max-width: 160px;
+            margin: -100px auto 0;
+        }
+    }
 }
 
 footer {
@@ -110,15 +120,31 @@ Icons
 
     &-tw {
         background-image: url(../img/icons/Twitter.png);
+
+        &-dark{
+            background-image: url(../img/icons/Twitter-dark.png);
+        }
     }
     &-ig {
         background-image: url(../img/icons/Instagram.png);
+
+        &-dark{
+            background-image: url(../img/icons/Instagram-dark.png);
+        }
     }
     &-fb {
         background-image: url(../img/icons/Facebook.png);
+
+        &-dark{
+            background-image: url(../img/icons/Facebook-dark.png);
+        }
     }
     &-li {
         background-image: url(../img/icons/LinkedIn.png);
+
+        &-dark{
+            background-image: url(../img/icons/LinkedIn-dark.png);
+        }
     }
     &-phone {
         background-image: url(../img/icons/Phone.png);
@@ -129,7 +155,6 @@ Icons
     &-marker {
         background-image: url(../img/icons/Map-Marker.png);
     }
-
 }
 
 /*
@@ -144,7 +169,7 @@ Colors
     &-blue {
         background-color: #0066f0 !important;
 
-        &-50{
+        &-50 {
             background-color: #e6f0fd !important;
         }
     }
@@ -204,7 +229,6 @@ Button
     &:focus {
         box-shadow: none;
     }
-  
 }
 
 /*
@@ -225,11 +249,17 @@ Swiper
         background: #fff;
         display: flex;
         align-items: center;
-    
+
         img {
             display: block;
             width: 100%;
             object-fit: cover;
+        }
+    }
+
+    &.testiminoalsSwiper{
+        .swiper-slide{
+            background-image: url(../img/testiminoals-bg.png);
         }
     }
 }

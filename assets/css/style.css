@@ -8,7 +8,8 @@ header nav {
   border-bottom-left-radius: 24px;
   border-bottom-right-radius: 24px;
 }
-header nav .nav-item .nav-link, header nav .nav-item .dropdown-item {
+header nav .nav-item .nav-link,
+header nav .nav-item .dropdown-item {
   cursor: pointer;
 }
 
@@ -76,6 +77,14 @@ main .mask {
   -webkit-mask-size: 100%;
           mask-size: 100%;
 }
+main .margin-minus-img {
+  margin-top: 140px;
+}
+main .margin-minus-img img {
+  box-shadow: 0 0 0px 5px #fff, 0 0 10px rgba(0, 0, 0, 0.5803921569);
+  max-width: 160px;
+  margin: -100px auto 0;
+}
 
 footer {
   border-top-left-radius: 24px;
@@ -98,14 +107,26 @@ Icons
 .icon-tw {
   background-image: url(../img/icons/Twitter.png);
 }
+.icon-tw-dark {
+  background-image: url(../img/icons/Twitter-dark.png);
+}
 .icon-ig {
   background-image: url(../img/icons/Instagram.png);
+}
+.icon-ig-dark {
+  background-image: url(../img/icons/Instagram-dark.png);
 }
 .icon-fb {
   background-image: url(../img/icons/Facebook.png);
 }
+.icon-fb-dark {
+  background-image: url(../img/icons/Facebook-dark.png);
+}
 .icon-li {
   background-image: url(../img/icons/LinkedIn.png);
+}
+.icon-li-dark {
+  background-image: url(../img/icons/LinkedIn-dark.png);
 }
 .icon-phone {
   background-image: url(../img/icons/Phone.png);
@@ -203,4 +224,7 @@ Swiper
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.swiper.testiminoalsSwiper .swiper-slide {
+  background-image: url(../img/testiminoals-bg.png);
 }/*# sourceMappingURL=style.css.map */
