@@ -13,7 +13,10 @@ var swiper = new Swiper(".testiminoalsSwiper", {
     loop: true,
     slidesPerView: 1,
     spaceBetween: 30,
-  
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+  },
 });
 
 var swiper = new Swiper(".teamSwiper", {
