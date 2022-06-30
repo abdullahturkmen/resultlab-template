@@ -89,10 +89,10 @@ main {
         mask-size: 100%;
     }
 
-    .margin-minus-img{
+    .margin-minus-img {
         margin-top: 140px;
-        img{
-            box-shadow: 0 0 0px 5px #fff, 0 0 10px #00000094;
+        img {
+            box-shadow: 0 0 0px 8px #fff, 0 0 10px #00000094;
             max-width: 160px;
             margin: -100px auto 0;
         }
@@ -121,28 +121,28 @@ Icons
     &-tw {
         background-image: url(../img/icons/Twitter.png);
 
-        &-dark{
+        &-dark {
             background-image: url(../img/icons/Twitter-dark.png);
         }
     }
     &-ig {
         background-image: url(../img/icons/Instagram.png);
 
-        &-dark{
+        &-dark {
             background-image: url(../img/icons/Instagram-dark.png);
         }
     }
     &-fb {
         background-image: url(../img/icons/Facebook.png);
 
-        &-dark{
+        &-dark {
             background-image: url(../img/icons/Facebook-dark.png);
         }
     }
     &-li {
         background-image: url(../img/icons/LinkedIn.png);
 
-        &-dark{
+        &-dark {
             background-image: url(../img/icons/LinkedIn-dark.png);
         }
     }
@@ -257,9 +257,21 @@ Swiper
         }
     }
 
-    &.testiminoalsSwiper{
-        .swiper-slide{
-            background-image: url(../img/testiminoals-bg.png);
+    &.testiminoalsSwiper {
+        .swiper-slide {
+            .swiper-bg {
+                background-image: url(../img/testiminoals-bg.png);
+                background-size: 100% 100%;
+                padding: 2% 2% 6%;
+                aspect-ratio: 2/1;
+                width: clamp(250px, 800px, 100%);
+                margin: auto;
+            }
+
+            .img-border {
+                border: 4px solid #005490;
+                aspect-ratio: 1;
+            }
         }
     }
 }

@@ -10,10 +10,11 @@ var swiper = new Swiper(".laptopSwiper", {
 
 
 var swiper = new Swiper(".testiminoalsSwiper", {
-    slidesPerView: "auto",
+    loop: true,
+    slidesPerView: 1,
     spaceBetween: 30,
-    
-  });
+  
+});
 
 var swiper = new Swiper(".teamSwiper", {
     loop: true,
@@ -24,18 +25,18 @@ var swiper = new Swiper(".teamSwiper", {
     breakpoints: {
         576: {
             slidesPerView: 2,
-            spaceBetween: 10,
-          },
+            spaceBetween: 10
+        },
         768: {
-          slidesPerView: 3,
-          spaceBetween: 20,
+            slidesPerView: 3,
+            spaceBetween: 20
         },
         1200: {
-          slidesPerView: 4,
-          spaceBetween: 30,
-        },
-   
-      },
+            slidesPerView: 4,
+            spaceBetween: 30
+        }
+
+    }
 });
 
 
@@ -48,18 +49,18 @@ var swiper = new Swiper(".sponsorShipSwiper", {
     breakpoints: {
         576: {
             slidesPerView: 3,
-            spaceBetween: 10,
-          },
+            spaceBetween: 10
+        },
         768: {
-          slidesPerView: 4,
-          spaceBetween: 20,
+            slidesPerView: 4,
+            spaceBetween: 20
         },
         1200: {
-          slidesPerView: 6,
-          spaceBetween: 30,
-        },
-   
-      },
+            slidesPerView: 6,
+            spaceBetween: 30
+        }
+
+    }
 });
 
 
@@ -115,12 +116,12 @@ formSenderButton.addEventListener("click", function () {
 
 // smooth name scroller
 
-function scrolling(el){
+function scrolling(el) {
     const element = document.querySelector(el)
     const topPos = element.getBoundingClientRect().top + window.pageYOffset
-    
+
     window.scrollTo({
-      top: topPos, // scroll so that the element is at the top of the view
-      behavior: 'smooth' // smooth scroll
+        top: topPos, // scroll so that the element is at the top of the view
+        behavior: 'smooth' // smooth scroll
     })
 }

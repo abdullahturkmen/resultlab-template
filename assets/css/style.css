@@ -81,7 +81,7 @@ main .margin-minus-img {
   margin-top: 140px;
 }
 main .margin-minus-img img {
-  box-shadow: 0 0 0px 5px #fff, 0 0 10px rgba(0, 0, 0, 0.5803921569);
+  box-shadow: 0 0 0px 8px #fff, 0 0 10px rgba(0, 0, 0, 0.5803921569);
   max-width: 160px;
   margin: -100px auto 0;
 }
@@ -225,6 +225,15 @@ Swiper
   -o-object-fit: cover;
      object-fit: cover;
 }
-.swiper.testiminoalsSwiper .swiper-slide {
+.swiper.testiminoalsSwiper .swiper-slide .swiper-bg {
   background-image: url(../img/testiminoals-bg.png);
+  background-size: 100% 100%;
+  padding: 2% 2% 6%;
+  aspect-ratio: 2/1;
+  width: clamp(250px, 800px, 100%);
+  margin: auto;
+}
+.swiper.testiminoalsSwiper .swiper-slide .img-border {
+  border: 4px solid #005490;
+  aspect-ratio: 1;
 }/*# sourceMappingURL=style.css.map */
